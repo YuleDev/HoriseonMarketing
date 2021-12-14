@@ -1,12 +1,18 @@
+/* apply to all css */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body css */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* header css */
 
 .header {
     padding: 20px;
@@ -17,6 +23,19 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .header div ul {
@@ -33,6 +52,8 @@ a {
     text-decoration: none;
 }
 
+/* hero css */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -47,6 +68,8 @@ a {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* search engine optimization css */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -71,6 +94,8 @@ a {
     margin-right: 25px;
 }
 
+/* online reputation management css */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,6 +118,8 @@ a {
     float: right;
     margin-left: 25px;
 }
+
+/* social media marketing css */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -117,22 +144,13 @@ a {
     margin-right: 25px;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+/* p css / misc css */
 
 p {
     font-size: 16px;
 }
+
+/* benefits css */
 
 .benefits {
     margin-right: 20px;
@@ -192,6 +210,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* footer css */
 
 .footer {
     padding: 30px;
