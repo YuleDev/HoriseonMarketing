@@ -1,4 +1,4 @@
-/* apply to all css */
+/* apply to all css begin */
 
 * {
     box-sizing: border-box;
@@ -6,13 +6,17 @@
     margin: 0;
 }
 
-/* body css */
+/* apply to all end */
+
+/* body start */
 
 body {
     background-color: #d9dcd6;
 }
 
-/* header css */
+/* body end */
+
+/* header start */
 
 .header {
     padding: 20px;
@@ -30,7 +34,7 @@ body {
     font-size: 48px;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,11 +42,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -52,7 +56,9 @@ a {
     text-decoration: none;
 }
 
-/* hero css */
+/* header end */
+
+/* hero start */
 
 .hero {
     height: 800px;
@@ -69,7 +75,9 @@ a {
     margin-left: 20px;
 }
 
-/* search engine optimization css */
+/* hero end */
+
+/* search engine optimization start */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -94,7 +102,9 @@ a {
     margin-right: 25px;
 }
 
-/* online reputation management css */
+/* search engine optimization end */
+
+/* online reputation management start */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -119,7 +129,9 @@ a {
     margin-left: 25px;
 }
 
-/* social media marketing css */
+/* online reputation management end */
+
+/* social media marketing start */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -144,13 +156,17 @@ a {
     margin-right: 25px;
 }
 
-/* p css / misc css */
+/* social media marketing end */
+
+/* misc start */
 
 p {
     font-size: 16px;
 }
 
-/* benefits css */
+/* misc end */
+
+/* benefits lead start */
 
 .benefits {
     margin-right: 20px;
@@ -179,6 +195,10 @@ p {
     max-width: 150px;
 }
 
+/* benefit lead end */
+
+/* benefits brand start */
+
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -194,6 +214,10 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+/* benefit brand end */
+
+/* benefit cost start */
 
 .benefit-cost {
     margin-bottom: 32px;
@@ -211,7 +235,9 @@ p {
     text-align: center;
 }
 
-/* footer css */
+/* benefit cost end */
+
+/* footer start */
 
 .footer {
     padding: 30px;
@@ -223,3 +249,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* footer end */
